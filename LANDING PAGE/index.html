@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Landing Page</title>
+    <!-- Use Tailwind CSS for a clean, modern look. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 text-gray-800 leading-normal antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm py-4 px-6 md:px-12 sticky top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-3xl font-bold text-gray-900">Your Product</a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#features" class="nav-link text-gray-600 hover:text-indigo-600 transition-colors duration-300">Features</a>
+                <a href="#pricing" class="nav-link text-gray-600 hover:text-indigo-600 transition-colors duration-300">Pricing</a>
+                <a href="#contact" class="nav-link text-gray-600 hover:text-indigo-600 transition-colors duration-300">Contact</a>
+                <button class="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors duration-300 shadow-lg">Sign Up</button>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden text-gray-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded-md p-2">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-bg text-white py-24 px-6 text-center">
+        <div class="container mx-auto max-w-4xl">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-4">
+                Build Incredible Websites, Effortlessly.
+            </h1>
+            <p class="text-lg md:text-xl lg:text-2xl mb-12 max-w-3xl mx-auto">
+                Our platform provides all the tools you need to create, launch, and grow your online presence with speed and precision.
+            </p>
+            <button class="px-8 py-4 bg-white text-indigo-600 rounded-full font-bold text-lg hover:bg-gray-200 transition-colors duration-300 shadow-xl">
+                Start Your Free Trial
+            </button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12">Powerful Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+                <!-- Feature Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                    <svg class="w-16 h-16 mx-auto text-indigo-600 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13m-6 2l12-3m-6 2v-3"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Blazing Fast Speed</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Optimized for performance, our platform ensures your website loads in a flash, keeping your visitors engaged.
+                    </p>
+                </div>
+                <!-- Feature Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                    <svg class="w-16 h-16 mx-auto text-indigo-600 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Developer Friendly</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Access to powerful APIs and a clean codebase makes it easy for developers to build custom solutions.
+                    </p>
+                </div>
+                <!-- Feature Card 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                    <svg class="w-16 h-16 mx-auto text-indigo-600 mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m-6 4a2 2 0 100-4m0 4a2 2 0 110-4m-6 4a2 2 0 100-4m0 4a2 2 0 110-4m-6 4a2 2 0 100-4m0 4a2 2 0 110-4"></path>
+                    </svg>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Fully Customizable</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Change every aspect of your site's design and functionality to match your brand's unique identity.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="pricing" class="py-20 px-6 bg-gray-200 text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Choose Your Plan</h2>
+            <p class="text-lg text-gray-600 mb-8">Simple, flexible pricing for every stage of your business.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Pricing Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-bold text-indigo-600 mb-2">Basic</h3>
+                        <p class="text-4xl font-extrabold mb-4">$10<span class="text-lg font-normal text-gray-500">/month</span></p>
+                        <ul class="list-disc list-inside text-left text-gray-600 space-y-2 mb-6">
+                            <li>5 GB Storage</li>
+                            <li>10 Projects</li>
+                            <li>Basic Support</li>
+                        </ul>
+                    </div>
+                    <button class="w-full px-6 py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition-colors duration-300">
+                        Get Started
+                    </button>
+                </div>
+                <!-- Pricing Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg flex flex-col justify-between border-4 border-indigo-600 transform scale-105">
+                    <div>
+                        <h3 class="text-2xl font-bold text-indigo-600 mb-2">Pro</h3>
+                        <p class="text-4xl font-extrabold mb-4">$30<span class="text-lg font-normal text-gray-500">/month</span></p>
+                        <ul class="list-disc list-inside text-left text-gray-600 space-y-2 mb-6">
+                            <li>50 GB Storage</li>
+                            <li>Unlimited Projects</li>
+                            <li>Priority Support</li>
+                        </ul>
+                    </div>
+                    <button class="w-full px-6 py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition-colors duration-300">
+                        Get Started
+                    </button>
+                </div>
+                <!-- Pricing Card 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-bold text-indigo-600 mb-2">Enterprise</h3>
+                        <p class="text-4xl font-extrabold mb-4">$99<span class="text-lg font-normal text-gray-500">/month</span></p>
+                        <ul class="list-disc list-inside text-left text-gray-600 space-y-2 mb-6">
+                            <li>Unlimited Storage</li>
+                            <li>Unlimited Projects</li>
+                            <li>Dedicated Account Manager</li>
+                        </ul>
+                    </div>
+                    <button class="w-full px-6 py-3 bg-indigo-600 text-white rounded-lg font-semibold hover:bg-indigo-700 transition-colors duration-300">
+                        Get Started
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-8 px-6 text-center">
+        <div class="container mx-auto">
+            <p class="text-lg mb-2"> vishalsarde_</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

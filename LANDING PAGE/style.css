@@ -1,0 +1,4 @@
+/* Custom background gradient for the hero section */
+.hero-bg {
+    background-image: linear-gradient(135deg, #4c51bf 0%, #7f5ad5 100%);
+}
